@@ -1,0 +1,56 @@
+$menuwidth: 260px;
+body{
+   position: relative;
+	.getway-hamburguer{
+		position: fixed;
+		top: 0px;
+		right: 0px;
+		height: 50px;
+		width: 50px;
+		cursor: pointer;
+		background: lighten($colorBlue, 2.5);
+		z-index: 10;
+	}
+}
+.getway{
+   position: fixed;
+   top: 0;
+   left: calc(-100% - 50px);
+   width: calc(100% - 50px);
+   height: 100vh;
+   background: $colorWhite;
+   z-index: 10;
+	@extend .transition;
+   &.active{
+      left: 0;
+   }
+   .getway-menu{
+      height: 100vh;
+      padding: 20px;
+      box-shadow: 0px 14px 20px #0000005f;
+      li{
+         margin: 1px 0;
+         a{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            padding: 10px 10px;
+            color: $colorBlueDark;
+            font-weight: 700;
+            cursor: pointer;
+         }
+         ul{
+            padding: 0;
+            li{
+               margin: 1px 0;
+               a{
+                  display: inline-block;
+                  width: 100%;
+                  height: 100%;
+                  padding: 5px 15px;
+               }
+            }
+         }
+      }
+   }
+}

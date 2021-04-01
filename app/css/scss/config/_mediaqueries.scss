@@ -1,0 +1,19 @@
+//********************
+// media-queries
+//********************
+$mobi-xs: "only screen and (max-width: 575px)";
+$mobi: "only screen and (min-width: 576px) and (max-width: 767px)";
+$tablet: "only screen and (min-width: 768px) and (max-width: 991px)";
+$notebook: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$desktop: "only screen and (min-width: 1200px)";
+
+$mobi-xs-down: "only screen and (max-width: 575px)";
+$mobi-down: "only screen and (max-width: 767px)";
+$tablet-down: "only screen and (max-width: 991px)";
+$notebook-down: "only screen and (max-width: 1199px)";
+$desktop-down: "only screen and (min-width: 1200px)";
+
+$mobi-xs-up: "only screen and (min-width: 575px)";
+$mobi-up: "only screen and (min-width: 767px)";
+$tablet-up: "only screen and (min-width: 992px)";
+$notebook-up: "only screen and (min-width: 1199px)";

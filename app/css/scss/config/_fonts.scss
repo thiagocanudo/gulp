@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
+
+@font-face {
+    font-family: 'valia-icomoon';
+    src:  url('../fonts/valia-icomoon.eot?8gy27f');
+    src:  url('../fonts/valia-icomoon.eot?8gy27f#iefix') format('embedded-opentype'),
+      url('../fonts/valia-icomoon.ttf?8gy27f') format('truetype'),
+      url('../fonts/valia-icomoon.woff?8gy27f') format('woff'),
+      url('../fonts/valia-icomoon.svg?8gy27f#valia-icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'valia-icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow:before {
+    content: "\e90c";
+  }
+  .icon-youtube:before {
+    content: "\e900";
+  }
+  .icon-wahtasapp:before {
+    content: "\e901";
+  }
+  .icon-recebimento:before {
+    content: "\e902";
+  }
+  .icon-portal:before {
+    content: "\e903";
+  }
+  .icon-play:before {
+    content: "\e904";
+  }
+  .icon-messeger:before {
+    content: "\e905";
+  }
+  .icon-investimento:before {
+    content: "\e906";
+  }
+  .icon-instagram:before {
+    content: "\e907";
+  }
+  .icon-facebook:before {
+    content: "\e908";
+  }
+  .icon-contribuicao:before {
+    content: "\e909";
+  }
+  .icon-busca:before {
+    content: "\e90a";
+  }
+  .icon-assistentevirtual:before {
+    content: "\e90b";
+  }
+  .icon-app:before {
+    content: "\e90d";
+  }
+  .icon-adesao:before {
+    content: "\e90e";
+  }
+  

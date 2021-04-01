@@ -1,0 +1,31 @@
+//frameworks
+@import 'html/bootstrap.min';
+
+//misc settings
+@import 'config/_mediaqueries';
+@import 'config/_colors';
+@import 'config/_settings';
+@import 'config/_mixins';
+
+//fonts
+@import 'config/_fonts';
+
+//typography
+@import 'config/_typography';
+
+//buttons
+@import 'config/_buttons';
+
+//widgets
+@import 'config/_widgets';
+
+//plugins
+@import 'plugins/_plugins';
+
+//global
+@import 'layout/_main';
+
+//components
+@import 'components/_header';
+@import 'components/_footer';
+@import 'components/_responsivemenu';

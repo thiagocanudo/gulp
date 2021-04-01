@@ -1,0 +1,40 @@
+body{
+	background: $colorWhite;
+}
+
+section{
+	padding-top: 120px;
+	padding-bottom: 160px;
+	@media #{$tablet-down}{
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}	
+}
+
+section.section-1{
+	padding-bottom: 30px;
+	background: $colorOrange;
+	.container{
+		h2{
+			@extend .h2-titulos;
+		}
+	}
+}
+
+section.section-2{
+	background: $colorWhite;
+	.container{
+		h2{
+			@extend .h2-titulos;
+		}
+	}
+}
+
+section.section-3{
+	background: $colorGray;
+	.container{
+		h2{
+			@extend .h2-titulos;
+		}
+	}
+}

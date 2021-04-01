@@ -1,0 +1,87 @@
+//********************
+// clearfix
+//********************
+.clearfix {
+    zoom:1;
+    &:before, &:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.h2-titulos{
+    margin-bottom: 30px;
+    line-height: 50%;
+    text-align: center;
+    .resume{
+        margin: 5px 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: red;
+        text-transform: uppercase;
+    }
+    .title{
+        line-height: 120%;
+        margin: 5px 0 10px;
+        font-size: 3.75rem;
+        @media #{$tablet-down}{
+            font-size: 2.75rem;
+        }        
+        font-weight: 700;
+        color: #000839;
+    }
+    .description{
+        margin: 5px 0;
+        font-size: 1.75rem;
+        font-weight: 500;
+        color: #000839;
+    }
+    .text-left{
+        text-align: left;
+        .resume{
+        }
+        .title{
+        }
+        .description{
+        }
+    }
+}
+
+
+
+//********************
+// effects
+//********************
+.transition{
+    -webkit-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+  }
+
+
+.animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}  

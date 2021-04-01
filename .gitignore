@@ -1,0 +1,7 @@
+dist
+node_modules
+package-lock.json
+.sass-cache
+.DS_Store
+app/styles/styles.css
+_INFRA/**/*

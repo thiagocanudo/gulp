@@ -1,0 +1,17 @@
+footer{
+   height: 100px;
+   background: $colorBlueDark;
+   @media #{$mobi-down}{
+      height: auto;
+   }
+   @media #{$mobi-xs-down}{
+      margin-bottom: 60px;
+   }
+   ul{
+      margin-bottom: 0;
+      a{
+         font-size: 1.6rem;
+         color: $colorWhite;
+      }
+   }
+}

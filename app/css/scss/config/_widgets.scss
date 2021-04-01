@@ -1,0 +1,68 @@
+ .active .toggle-btn {
+   background-color: transparent;
+   transition: all 0.2s ease-in-out;
+ }
+ .active .toggle-btn:before {
+   top: 0;
+   transition: all 0.3s ease-in-out;
+ }
+ .active .toggle-btn:after {
+   top: 0;
+   transition: all 0.3s ease-in-out;
+ }
+
+
+
+.active .type1:before {
+   left: 6px;
+   transform: translateY(6px) rotate(-45deg);
+ }
+ .active .type1:after {
+   top: 0;
+   left: 6px;
+   transform: translateY(-8px) rotate(45deg);
+ }
+
+ .toggle-btn {
+   height: 2px;
+   width: 25px;
+   background-color: #fff;
+   position: relative;
+   top: 50%;
+   left: 0;
+   margin: auto;
+   transition: all 0.3s ease-in-out;
+ }
+ .toggle-btn:before {
+   content: "";
+   height: 2px;
+   width: 25px;
+   box-shadow: 0 -10px 0 0 #fff;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: all 0.3s ease-in-out;
+ }
+ .toggle-btn:after {
+   content: "";
+   height: 2px;
+   width: 25px;
+   box-shadow: 0 10px 0 0 #fff;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: all 0.3s ease-in-out;
+ }
+
+.vert-move {
+    -webkit-animation: mover 0.5s infinite alternate;
+    animation: mover 0.5s infinite alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}

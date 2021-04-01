@@ -1,0 +1,80 @@
+//********************
+// font page
+//********************
+html {
+	font-size: 62.5%;
+} 
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 1.42857143;
+	background: $colorUltraLightGray;
+}
+//********************
+// resets
+//********************
+.container{
+	width: 100%;
+	@media (min-width: 1200px){
+		.container {
+			max-width: 1366px;
+		}
+	}
+}
+ul{
+	list-style: none;
+}
+//********************
+// complements
+//********************
+.no-border{
+	border: 0 !important;
+}
+.no-border-radius{
+	border-radius: 0 !important;
+}
+.no-padding-right{
+	padding-right: 0 !important;
+}
+.no-padding-left{
+	padding-left: 0 !important;
+}
+.no-padding{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.truncate-text{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.hidden-xs-down{
+	@media #{$mobi-xs-down}{
+		display: none;
+	}
+}
+.hidden-sm-down{
+	@media #{$mobi-down}{
+		display: none;
+	}
+}
+.hidden-md-down{
+	@media #{$tablet-down}{
+		display: none;
+	}
+}
+.hidden-sm-up{
+	@media #{$tablet-up}{
+		display: none;
+	}
+}
+.hidden-md-up{
+	@media #{$tablet-up}{
+		display: none;
+	}
+}
+.overflow{
+	overflow: hidden;
+}
